@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!--Google Fontes-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Jogo da velha</title>
+</head>
+<body>
+    <h1>Jogo da velha</h1>
+    <div id="buttons-container">
+        <button id="2-players">2 Jogadores</button>
+        <button id="ai-player">Contra IA</button>
+    </div>
+    <div id="container" class="hide">
+        <div class="box" id="block-1"></div>
+        <div class="box" id="block-2"></div>
+        <div class="box" id="block-3"></div>
+        <div class="box" id="block-4"></div>
+        <div class="box" id="block-5"></div>
+        <div class="box" id="block-6"></div>
+        <div class="box" id="block-7"></div>
+        <div class="box" id="block-8"></div>
+        <div class="box" id="block-9"></div>
+
+        <div id="scoreboard-container">
+            <h2>Placar:</h2>
+            <div class="score-container">
+                <span class="score-box">
+                    <span id="x-scoreboard">x</span>:
+                    <span id="scoreboard-1">0</span>
+                </span>
+                <span class="score-box">
+                    <span id="o-scoreboard">O</span>:
+                    <span id="scoreboard-2">0</span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="hide">
+        <div class="x">x</div>
+        <div class="o">o</div>
+    </div>
+    
+    <div id="mesage" class="hide">
+        <p>Mensagem</p>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
